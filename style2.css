@@ -1,0 +1,733 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url(resim/65vk.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.container header ul{
+    float: right;
+    margin-right: 180px;
+}
+
+.container header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.container header ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+.container header ul li a:hover{
+    color: yellow;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.container header img{
+    position: absolute;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.picture img{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+
+.picture h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.picture h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 20px;
+}
+
+.picture button{
+    width: 180px;
+    padding: 12px 20px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.picture button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.containerresim{
+    position: absolute;
+    top: 100%;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.containerresim img{
+    width: 120%;
+    cursor: pointer;
+}
+
+.containerresim .logo{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+
+.containerresim h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.containerresim h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 20px;
+}
+
+.containerresim button{
+    width: 230px;
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    top:75%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.containerresim button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.contentresim{
+    position: absolute;
+    top: 464%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 550vh;
+    background-color: slategrey;
+    opacity: 0.2;
+}
+
+.contentresim h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    opacity: 1;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footerresim{
+    position: absolute;
+    top: 205%;
+}
+
+.footerresim img{
+    width: 45%;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+
+.footerresim .logo{
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+}
+
+.footerresim h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 29%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.footerresim .logox{
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.footerresim h4{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 29%;
+    left: 82%;
+    transform: translate(-50%,-50%);
+}
+
+.footerresim .x1{
+    margin-top: 20px;
+}
+
+.footerresim .png{
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.footerresim h5{
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.footerresim .x2{
+    margin-top: 20px;
+}
+
+.footerresim .png1{
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.footerresim h6{
+    position: absolute;
+    top: 75%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.footerresim .x3{
+    margin-top: 20px;
+}
+
+.footerresim .png2{
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazı{
+    position: absolute;
+    top: 338%;
+}
+
+.contentyazı img{
+    width: 45%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.contentyazı .logo{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazı h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 47%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazı .logox{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazı h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 48%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+}
+
+.section{
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.section h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    opacity: 1;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.centerresim{
+    position: absolute;
+    top: 420%;
+    margin-left: 50px;
+}
+
+.centerresim img{
+    width: 300px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.centerresim img:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.centerresim h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.centerresim h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.centerresim h4{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.centerresim h5{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.centerresim h6{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 81%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.centerresim .logo{
+    position: absolute;
+    top: 24.5%;
+    left: 116.5%;
+    transform: translate(-50%,-50%);
+}
+
+#containerpicture{
+    background: url(resim/deniz.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 553%;
+}
+
+#containerpicture h3{
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 3px;
+}
+
+#containerpicture button{
+   width: 160px;
+   padding: 15px 20px;
+   border: 1px solid black;
+   border: none;
+   color: black;
+   letter-spacing: 1px;
+   font-size: 14px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+#containerpicture button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#footer{
+    position: absolute;
+    top: 703%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+#footer h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 50px 50px;
+}
+
+#footer ul{
+    margin: -30px 53px;
+}
+
+#footer ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#footer ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+#footer ul li a:hover{
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#footerx{
+    position: absolute;
+    top: 665.5%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+#footerx h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 50px 50px;
+}
+
+#footerx ul{
+    margin: -30px 51px;
+}
+
+#footerx ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#footerx ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+#footerx ul li a:hover{
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#footerxx{
+    position: absolute;
+    top: 660%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#footerxx h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 50px 50px;
+}
+
+#footerxx ul{
+    margin: -30px 51px;
+}
+
+#footerxx ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#footerxx ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+#footerxx ul li a:hover{
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#footerxxx{
+    position: absolute;
+    top: 660%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+#footerxxx h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 50px 50px;
+}
+
+#footerxxx ul{
+    margin: -30px 51px;
+}
+
+#footerxxx ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#footerxxx ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+#footerxxx ul li a:hover{
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.footeryazı{
+    position: absolute;
+    top: 730%;
+    left: 13.5%;
+    transform: translate(-50%,-50%);
+}
+
+.footeryazı h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    cursor: pointer;
+}
+
+.footeryazı h4{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.xxyazı{
+    position: absolute;
+    top: 733%;
+    left: 63%;
+}
+
+.xxyazı ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.xxyazı ul li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+}
+
+.xxyazı ul li a:hover{
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#social-bar{
+    position: absolute;
+    top: 668%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+}
+
+#social-bar i{
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.centeryazı h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    opacity: 1;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    top: 193%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
